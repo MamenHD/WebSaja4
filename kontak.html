@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPL-TamanSiswa</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="asset/css/style2.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <!--Navbar Section Start-->
+    <nav class="navbar">
+        <h1 class="logo">R<span>P</span>L</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="index.html">Beranda</a></li>
+            <li><a href="about.html">Tentang RPL</a></li>
+            <li><a href="program.html">Program</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+            <li class="ctn"><a href="#">Login</a></li>
+        </ul>
+        <img src="asset/img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <!--Navbar Section End-->
+
+    <header>
+        <div class="header-content">
+            <h2>Kontak</h2>
+            <div class="line"></div>
+        </div>
+    </header>
+
+
+    <!--Kontak Start-->
+    <div id="kontak" class="container">
+        <span class="big-circle"></span>
+        <div class="form">
+            <div class="contact-info">
+                <h3 class="title">Mari Bergabung Ke RPL</h3>
+                <p>Membangun hubungan melalui teknologi.</p>
+
+                <div class="info">
+                    <div class="information">
+                        <img src="../img/kontak/mapss.png" alt="" class="icon">
+                        <p>Jl. Garuda No.44 Kemayoran, Jakarta Pusat
+                        </p>
+                    </div>
+                    <div class="information">
+                        <img src="../img/kontak/email.png" alt="" class="icon">
+                        <p>smktamansiswa2jkt@gmail.com</p>
+                    </div>
+                    <div class="information">
+                        <img src="../img/kontak/tlp.png" alt="" class="icon">
+                        <p>021-4208347</p>
+                    </div>
+                </div>
+
+                <div class="social-media">
+                    <p>Connect with us :</p>
+                    <div class="social-icon">
+                        <a href="https://www.facebook.com/SMKTamansiswa2Jakarta?mibextid=ZbWKwL">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://twitter.com/tamsis2jakarta?t=CO5uj9Ye47hrQBzld7SJSg&s=08">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/rpltamansiswa?igsh=dWlpMWJ5d3N4OWVv">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/smk-taman-siswa-2/">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <span class="circle one"></span>
+                <span class="circle two"></span>
+                
+                <form action="index.html">
+                    <h3 class="title">Contact us</h3>
+                    <div class="input-container">
+                        <input type="text" name="name" class="input">
+                        <label for="">Username</label>
+                        <span>Username</span>
+                    </div>
+                    <div class="input-container">
+                        <input type="email" name="email" class="input">
+                        <label for="">Email</label>
+                        <span>Email</span>
+                    </div>
+                    <div class="input-container">
+                        <input type="tel" name="phone" class="input">
+                        <label for="">Phone</label>
+                        <span>Phone</span>
+                    </div>
+                    <div class="input-container textarea focus">
+                        <textarea type="message" class="input"></textarea>
+                        <label for="">Message</label>
+                        <span>Message  </span>
+                    </div>
+                    <input type="submit" value="Send" class="btn">
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--Kontak End-->
+
+    <!-- Footer Start -->
+    <footer>
+        
+        <ul class="icons">
+            <li><a href="https://www.facebook.com/SMKTamansiswa2Jakarta?mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://twitter.com/tamsis2jakarta?t=CO5uj9Ye47hrQBzld7SJSg&s=08"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/rpltamansiswa?igsh=dWlpMWJ5d3N4OWVv"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/smk-taman-siswa-2/"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+        <div class="line linea"></div>
+        <ul class="menu">
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="about.html">Tentang RPL</a></li>
+            <li><a href="program.html">Program</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+        </ul>
+        <p class="copy">ALL rights Reserved By RPL TamanSiswa</p>
+    </footer>
+    <!-- Footer End -->
+    
+    <!-- Feather Icons -->
+    
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="asset/js/script.js"></script>
+
+    
+</body>
+</html>
